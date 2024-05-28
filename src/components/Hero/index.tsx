@@ -8,22 +8,109 @@ const Hero = () => {
         className="relative z-10 overflow-hidden bg-white pb-16 pt-[120px] dark:bg-gray-dark md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
       >
         <div className="container">
-          <div className="-mx-4 flex flex-wrap">
-            <div className="w-full px-4">
-              <div className="mx-auto max-w-[800px] text-center">
-                <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                  Free and Open-Source Next.js Template for Startup & SaaS
-                </h1>
-                <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
-                  Startup is free Next.js template for startups and SaaS
-                  business websites comes with all the essential pages,
-                  components, and sections you need to launch a complete
-                  business website, built-with Next 13.x and Tailwind CSS.
-                </p>
-              
-              </div>
+<section className="py-20 lg:py-[120px] bg-white dark:bg-dark">
+   <div className="container mx-auto">
+      <div
+         className="relative z-10 overflow-hidden rounded bg-primary py-12 px-8 md:p-[70px]"
+         >
+         <div className="flex flex-wrap items-center -mx-4">
+            <div className="w-full px-4 lg:w-1/2">
+               
+               <span>
+               
+               </span>
+               <h2
+                  className="mb-6 text-3xl font-bold leading-tight text-white sm:mb-8 sm:text-[40px]/[48px] lg:mb-0"
+                  >
+                  <span className="xs:block">  Restoring Functionality, Renewing Confidence  </span>
+                  <span className="block mb-4 text-base font-medium text-white">
+                  your Trusted Repair Shop
+               </span>
+               </h2>
             </div>
-          </div>
+            <div className="w-full px-4 lg:w-1/2">
+               <div className="flex flex-wrap lg:justify-end">
+                  <a
+                     href="javascript:void(0)"
+                     className="inline-flex py-3 my-1 mr-4 text-base font-medium transition bg-white rounded-md hover:bg-shadow-1 text-primary px-7"
+                     >
+                  Mobile Repair
+                  </a>
+                  <a
+                     href="javascript:void(0)"
+                     className="inline-flex py-3 my-1 text-base font-medium text-white transition rounded-md bg-gray-dark px-7 hover:bg-opacity-90"
+                     >
+                  Computer Repair
+                  </a>
+               </div>
+            </div>
+         </div>
+         <div>
+            <span className="absolute top-0 left-0 z-[-1]">
+               <svg
+                  width="189"
+                  height="162"
+                  viewBox="0 0 189 162"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <ellipse
+                     cx="16"
+                     cy="-16.5"
+                     rx="173"
+                     ry="178.5"
+                     transform="rotate(180 16 -16.5)"
+                     fill="url(#paint0_linear)"
+                     />
+                  <defs>
+                     <linearGradient
+                        id="paint0_linear"
+                        x1="-157"
+                        y1="-107.754"
+                        x2="98.5011"
+                        y2="-106.425"
+                        gradientUnits="userSpaceOnUse"
+                        >
+                        <stop stop-color="white" stop-opacity="0.07" />
+                        <stop offset="1" stop-color="white" stop-opacity="0" />
+                     </linearGradient>
+                  </defs>
+               </svg>
+            </span>
+            <span className="absolute bottom-0 right-0 z-[-1]">
+               <svg
+                  width="191"
+                  height="208"
+                  viewBox="0 0 191 208"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                  <ellipse
+                     cx="173"
+                     cy="178.5"
+                     rx="173"
+                     ry="178.5"
+                     fill="url(#paint0_linear)"
+                     />
+                  <defs>
+                     <linearGradient
+                        id="paint0_linear"
+                        x1="-3.27832e-05"
+                        y1="87.2457"
+                        x2="255.501"
+                        y2="88.5747"
+                        gradientUnits="userSpaceOnUse"
+                        >
+                        <stop stop-color="white" stop-opacity="0.07" />
+                        <stop offset="1" stop-color="white" stop-opacity="0" />
+                     </linearGradient>
+                  </defs>
+               </svg>
+            </span>
+         </div>
+      </div>
+   </div>
+</section>
         </div>
         <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
           <svg
